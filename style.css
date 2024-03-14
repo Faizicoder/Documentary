@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 0;
+    width: 0;
+    display: block;
+}
+
+#div1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(sql.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border: solid rgba(0, 128, 0, 0.658) 0.2rem;
+
+}
+
+#div2 {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-image: url(tiger.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    border: solid rgba(255, 72, 0, 0.616) 0.2rem;
+}
+
+#p1 {
+    position: absolute;
+    top: 40%;
+    background: linear-gradient(to left, rgba(0, 194, 0, 0.658), rgba(157, 230, 157, 0.712), rgba(122, 253, 0, 0.61));
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    border-radius: 1rem 2rem 1rem 2rem;
+    padding: 2rem;
+    border: groove green 2px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+#p2 {
+    position: absolute;
+    top: 40%;
+    background: linear-gradient(to left, rgba(231, 189, 0, 0.486), rgba(255, 94, 0, 0.596), rgba(250, 97, 9, 0.61));
+    color: rgb(255, 168, 118);
+    font-size: 1.4rem;
+    border-radius: 1rem 2rem 1rem 2rem;
+    padding: 2rem;
+    border: groove rgb(255, 115, 1) 2px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 10px black;
+}
+
+#div3 {
+    position: absolute;
+    top: 200%;
+    background-image: url(butter\ fly.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    border: solid rgb(255, 0, 221) 0.2rem;
+}
+
+#p3 {
+    position: absolute;
+    top: 40%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.384), rgba(126, 0, 0, 0.507), rgba(0, 226, 207, 0.61));
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    border-radius: 1rem 2rem 1rem 2rem;
+    padding: 2rem;
+    border: groove rgb(0, 0, 0) 2px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#div4 {
+    position: absolute;
+    top: 300%;
+    background-image: url(elephant.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    border: solid rgba(253, 143, 0, 0.658) 0.2rem;
+}
+
+#p4 {
+    position: absolute;
+    top: 40%;
+    background: linear-gradient(to left, rgba(0, 238, 255, 0.493), rgba(255, 167, 84, 0.507), rgba(98, 255, 93, 0.514));
+    color: rgba(255, 136, 0, 0.76);
+    font-size: 1.4rem;
+    border-radius: 1rem 2rem 1rem 2rem;
+    padding: 2rem;
+    border: groove rgb(255, 123, 0) 2px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 10px black;
+}
